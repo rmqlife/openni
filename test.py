@@ -10,9 +10,14 @@ while(True):
 		# Display the resulting frame
         frame = frame * 0.05
         frame = frame.clip(0,255)
-        frame = frame.astype('uint8')
         
-        frame[frame>60] = 0
+        thlow = 100
+        frame[frame>thlow] = 0
+        step = 255-thlow
+        frame = frame + step
+        frame[frame==step] = 0
+        
+        frame = frame.astype('uint8')
         cv2.imshow('frame',frame)
         if cv2.waitKey(30) & 0xFF == ord('q'):
             break
