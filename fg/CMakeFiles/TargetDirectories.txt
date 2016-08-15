@@ -1,0 +1,3 @@
+/home/rmqlife/work/openni/fg/CMakeFiles/edit_cache.dir
+/home/rmqlife/work/openni/fg/CMakeFiles/rebuild_cache.dir
+/home/rmqlife/work/openni/fg/CMakeFiles/foreground.dir

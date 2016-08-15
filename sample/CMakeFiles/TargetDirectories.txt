@@ -1,0 +1,3 @@
+/home/rmqlife/work/openni/cpp/CMakeFiles/edit_cache.dir
+/home/rmqlife/work/openni/cpp/CMakeFiles/rebuild_cache.dir
+/home/rmqlife/work/openni/cpp/CMakeFiles/DisplayImage.dir
